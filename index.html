@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BLUE CAT — Quiet Luxury. Wild Instinct.">
+  <title>BLUE CAT — Quiet Luxury. Wild Instinct.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Blue Cat home">BLUE<span>.</span>CAT</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <a href="cart.html" class="bag-link">Bag <span class="cart-count">0</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&h=1000&fit=crop" class="hero-image" alt="Fashion collection">
+      <div class="hero-content">
+        <span class="eyebrow">Est. 2025 · The House of Blue Cat</span>
+        <h1>Quiet Luxury.<br><em>Wild Instinct.</em></h1>
+        <p class="hero-sub">A modern luxury house for those who move with quiet confidence.</p>
+        <a href="shop.html" class="btn">Explore the Collection</a>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="Quiet luxury, wild instinct">
+      <div class="marquee-track"><span class="marquee-text">Quiet Luxury ✦ Wild Instinct ✦ The Blue Cat ✦ Est. 2025 ✦ </span><span class="marquee-text">Quiet Luxury ✦ Wild Instinct ✦ The Blue Cat ✦ Est. 2025 ✦ </span></div>
+    </div>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow dark">Selected pieces</p>
+        <h2>The Icons</h2>
+      </div>
+      <div class="product-grid" id="signatureGrid"></div>
+      <div class="center"><a class="btn btn-dark" href="shop.html">View all pieces</a></div>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow">A point of view</p>
+      <h2>Less noise.<br><em>More presence.</em></h2>
+      <a href="about.html" class="text-link">Discover our story ↗</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo">BLUE<span>.</span>CAT</a><p>A modern luxury house. Designed in Dhaka, crafted with intention.</p></div>
+      <div class="footer-col"><h4>Shop</h4><ul><li><a href="shop.html">All pieces</a></li><li><a href="cart.html">Your bag</a></li></ul></div>
+      <div class="footer-col"><h4>House</h4><ul><li><a href="about.html">Our story</a></li></ul></div>
+      <div class="footer-col"><h4>Care</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="contact.html">Shipping & returns</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> BLUE CAT.</span><span>Dhaka · Paris · Milan</span></div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+  <script src="js/products.js" defer></script><script src="js/main.js" defer></script><script src="js/animations.js" defer></script>
+</body>
+</html>
